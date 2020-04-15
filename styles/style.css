@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     color: black;
-    background: url('../images/background_image.jpg') no-repeat;
+    background: url(../images/background_image.jpg) no-repeat;
     background-size: 100%;
     font-family: 'Oswald', sans-serif;
 }
@@ -22,7 +22,7 @@ body {
 
 #logo-img{
 
-    background: url('../images/MainLogo.png') no-repeat;
+    background: url(../images/MainLogo.png) no-repeat;
     width: 134px;
     height: 134px;
     margin: 8px 8px 8px 0px;
