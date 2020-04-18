@@ -7,18 +7,11 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.container {
-    /*Класс контейнер для логотипа и надписи*/
-    margin-left: 20px;
-}
-
 #header-nav {
     /*Класс отвечающий за хедер (навигационный бар)*/
-    background-color: white;
     border-radius: 0;
     border: 0;
     opacity: 0.6;
-    height: 165px;
 }
 
 #logo-img {
@@ -33,13 +26,18 @@ body {
     /*Класс отвечающий за заголовок навигационного бара*/
     font-family: 'Russo One', sans-serif;
     color: #14206e;
-    font-size: 2em;
+    font-size: 3em;
 }
 
-.navbar-brand,
-.navbar-brand a:hover,
-.navbar-brand a:focus {
-    /*Навигационный бар , hover - поддерчкивание , фокус - фокус на елементе*/
-    text-decoration: none;
-    padding-top: 18px;
+#phone {
+    font-size: 1.8em;
+    text-align: right;
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+
+#delivery {
+    color: red;
+    text-align: right;
+    padding-right: 15px;
 }
