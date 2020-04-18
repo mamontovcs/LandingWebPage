@@ -47,10 +47,78 @@ body {
     border-color: rgb(64, 73, 148);
 }
 
+@media (min-width: 1200px) {
+    .jumbotron {
+        background: url(../images/jumbotron_1125.jpg) no-repeat;
+        height: 600px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .jumbotron {
+        background: url(../images/jumbotron_940.jpg) no-repeat;
+        height: 530px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+        background: url(../images/jumbotron_768.jpg) no-repeat;
+        height: 387px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+        margin-top: 20px;
+        padding: 0;
+    }
+}
+
 @media (max-width: 767px) {
+    #call-btn>a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #6c79cf;
+        background-color: #8292f7;
+        color: #951c49;
+    }
     .navbar-brand p {
         font-family: 'Russo One', sans-serif;
         font-size: 0.58em;
         text-align: left;
+    }
+    .jumbotron {
+        background: url(../images/jumbotron_510.jpg) no-repeat;
+        height: 246px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+        margin-top: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 415px) {
+    .jumbotron {
+        background: url(../images/jumbotron_385.jpg) no-repeat;
+        height: 189px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+        margin-top: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 376px) {
+    .jumbotron {
+        background: url(../images/jumbotron_341.jpg) no-repeat;
+        height: 189px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+        margin-top: 20px;
+        padding: 0;
     }
 }
