@@ -1,4 +1,5 @@
-body { /*Тело класса*/
+body {
+    /*Тело класса*/
     font-size: 16px;
     color: black;
     background: url(../images/background_image.jpg) no-repeat;
@@ -6,40 +7,39 @@ body { /*Тело класса*/
     font-family: 'Oswald', sans-serif;
 }
 
-.container{  /*Класс контейнер для логотипа и надписи*/
+.container {
+    /*Класс контейнер для логотипа и надписи*/
     margin-left: 20px;
 }
 
-#header-nav{ /*Класс отвечающий за хедер (навигационный бар)*/
-
+#header-nav {
+    /*Класс отвечающий за хедер (навигационный бар)*/
     background-color: white;
     border-radius: 0;
     border: 0;
-    opacity : 0.6;
+    opacity: 0.6;
     height: 165px;
 }
 
-
-#logo-img{ /*id лого картинки*/
-
+#logo-img {
+    /*id лого картинки*/
     background: url(../images/MainLogo.png) no-repeat;
     width: 134px;
     height: 134px;
     margin: 8px 8px 8px 0px;
 }
 
-
-.navbar-brand h1 { /*Класс отвечающий за заголовок навигационного бара*/
+.navbar-brand h1 {
+    /*Класс отвечающий за заголовок навигационного бара*/
     font-family: 'Russo One', sans-serif;
     color: #14206e;
     font-size: 2em;
 }
 
-.navbar-brand ,.navbar-brand a:hover , .navbar-brand a:focus{ /*Навигационный бар , hover - поддерчкивание , фокус - фокус на елементе*/
+.navbar-brand,
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    /*Навигационный бар , hover - поддерчкивание , фокус - фокус на елементе*/
     text-decoration: none;
     padding-top: 18px;
 }
-
-
-
-
