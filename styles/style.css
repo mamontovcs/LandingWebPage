@@ -89,6 +89,32 @@ body {
     opacity: 0.8;
 }
 
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#address>span {
+    font-size: 1.4em;
+}
+
+#infos p {
+    font-size: 1.3em;
+    color: rgb(23, 133, 23);
+    font-style: italic;
+}
+
+#infos p:nth-child(2) {
+    margin-top: 25px;
+}
+
 @media (min-width: 1200px) {
     .jumbotron {
         background: url(../images/jumbotron_1125.jpg) no-repeat;
@@ -210,5 +236,17 @@ body {
         position: relative;
         border: 2px solid rgb(64, 73, 148);
         overflow: hidden;
+    }
+    #address>span {
+        font-size: 1.3em;
+    }
+    #address {
+        font-size: 0.8em;
+    }
+    #infos p {
+        font-size: 0.8em;
+        color: rgb(23, 133, 23);
+        font-style: italic;
+        text-align: right;
     }
 }
