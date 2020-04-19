@@ -47,6 +47,48 @@ body {
     border-color: rgb(64, 73, 148);
 }
 
+#works-tile,
+#contacts-tile,
+#map-tile {
+    height: 225px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid rgb(64, 73, 148);
+    overflow: hidden;
+}
+
+#works-tile:hover,
+#contacts-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 1px 5px 1px rgb(85, 100, 233);
+}
+
+#works-tile {
+    background: url(../images/works.jpg) no-repeat;
+    background-position: center;
+}
+
+#contacts-tile {
+    background: url(../images/contacts.jpg);
+    background-position: center;
+}
+
+#works-tile span,
+#contacts-tile span,
+#map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #14206e;
+    color: beige;
+    opacity: 0.8;
+}
+
 @media (min-width: 1200px) {
     .jumbotron {
         background: url(../images/jumbotron_1125.jpg) no-repeat;
@@ -73,6 +115,21 @@ body {
         border: 2px solid #6c79cf;
         margin-top: 20px;
         padding: 0;
+    }
+    #works-tile,
+    #contacts-tile,
+    #map-tile {
+        height: 140px;
+        width: 100%;
+        margin-bottom: 15px;
+        background-size: 100%;
+        position: relative;
+        border: 2px solid rgb(64, 73, 148);
+        overflow: hidden;
+    }
+    #contacts-tile {
+        background: url(../images/contacts_139.jpg);
+        background-position: center;
     }
 }
 
@@ -101,7 +158,8 @@ body {
     }
 }
 
-@media (max-width: 415px) {
+
+/* @media (max-width: 415px) {
     .jumbotron {
         background: url(../images/jumbotron_385.jpg) no-repeat;
         height: 189px;
@@ -109,6 +167,16 @@ body {
         border: 2px solid #6c79cf;
         margin-top: 20px;
         padding: 0;
+    }
+    #works-tile {
+        background-position: center;
+        width: 333px;
+        margin: 0 auto 15px;
+    }
+    #contacts-tile {
+        background-position: center;
+        width: 333px;
+        margin: 0 auto 15px;
     }
 }
 
@@ -120,5 +188,27 @@ body {
         border: 2px solid #6c79cf;
         margin-top: 20px;
         padding: 0;
+    }
+} */
+
+@media (max-width: 475px) {
+    .jumbotron {
+        background: url(../images/jumbotron_385.jpg) no-repeat;
+        height: 189px;
+        box-shadow: 0 0 50px #8292f7;
+        border: 2px solid #6c79cf;
+        margin-top: 20px;
+        padding: 0;
+    }
+    #works-tile,
+    #contacts-tile,
+    #map-tile {
+        height: 200px;
+        width: 100%;
+        background-size: 100%;
+        margin-bottom: 15px;
+        position: relative;
+        border: 2px solid rgb(64, 73, 148);
+        overflow: hidden;
     }
 }
